@@ -1,5 +1,5 @@
 //
-//  Book+CoreDataClass.swift
+//  Task+CoreDataClass.swift
 //  CoreDataDemo
 //
 //  Created by Arvind on 26/04/20.
@@ -10,7 +10,7 @@
 import Foundation
 import CoreData
 
-@objc(Book)
-public class Book: NSManagedObject {
+@objc(Task)
+public class Task: NSManagedObject {
 
 }

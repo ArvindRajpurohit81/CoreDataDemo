@@ -2,8 +2,8 @@
 //  User+CoreDataProperties.swift
 //  CoreDataDemo
 //
-//  Created by Arvind on 26/03/20.
-//  Copyright © 2020 . All rights reserved.
+//  Created by Arvind on 26/04/20.
+//  Copyright © 2020 Openapp. All rights reserved.
 //
 //
 
@@ -20,7 +20,8 @@ extension User {
     @NSManaged public var firstName: String?
     @NSManaged public var lastName: String?
     @NSManaged public var username: String?
-    @NSManaged public var books: Set<Book> // <--- 3.
+    @NSManaged public var books: Set<Book>?
+    @NSManaged public var task: Set<Task>?
 
 }
 
@@ -38,5 +39,22 @@ extension User {
 
     @objc(removeBooks:)
     @NSManaged public func removeFromBooks(_ values: NSSet)
+
+}
+
+// MARK: Generated accessors for task
+extension User {
+
+    @objc(addTaskObject:)
+    @NSManaged public func addToTask(_ value: Task)
+
+//    @objc(removeTaskObject:)
+//    @NSManaged public func removeFromTask(_ value: Task)
+
+    @objc(addTask:)
+    @NSManaged public func addToTask(_ values: NSSet)
+
+//    @objc(removeTask:)
+//    @NSManaged public func removeFromTask(_ values: NSSet)
 
 }

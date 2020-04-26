@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A452A4F8242BF49900F57C97 /* Device+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A4F6242BF49900F57C97 /* Device+CoreDataClass.swift */; };
-		A452A4F9242BF49900F57C97 /* Device+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A4F7242BF49900F57C97 /* Device+CoreDataProperties.swift */; };
-		A452A4FC242BF93200F57C97 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A4FA242BF93200F57C97 /* User+CoreDataClass.swift */; };
-		A452A4FD242BF93200F57C97 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A4FB242BF93200F57C97 /* User+CoreDataProperties.swift */; };
+		A4270C532455869B00D2A8DB /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C512455869B00D2A8DB /* User+CoreDataClass.swift */; };
+		A4270C542455869B00D2A8DB /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C522455869B00D2A8DB /* User+CoreDataProperties.swift */; };
+		A4270C57245586BB00D2A8DB /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C55245586BB00D2A8DB /* Book+CoreDataClass.swift */; };
+		A4270C58245586BB00D2A8DB /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C56245586BB00D2A8DB /* Book+CoreDataProperties.swift */; };
+		A4270C5F2455882D00D2A8DB /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C5D2455882D00D2A8DB /* Task+CoreDataClass.swift */; };
+		A4270C602455882D00D2A8DB /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4270C5E2455882D00D2A8DB /* Task+CoreDataProperties.swift */; };
 		A452A4FF242BFB3300F57C97 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A4FE242BFB3300F57C97 /* DataController.swift */; };
-		A452A502242BFD6000F57C97 /* Book+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A500242BFD6000F57C97 /* Book+CoreDataClass.swift */; };
-		A452A503242BFD6000F57C97 /* Book+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A452A501242BFD6000F57C97 /* Book+CoreDataProperties.swift */; };
 		A460E9F1244AE68900C2481C /* ListPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A460E9F0244AE68900C2481C /* ListPersonVC.swift */; };
 		A4D13ED02427B7FB00348C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D13ECF2427B7FA00348C77 /* AppDelegate.swift */; };
 		A4D13ED22427B7FB00348C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D13ED12427B7FB00348C77 /* SceneDelegate.swift */; };
@@ -24,13 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A452A4F6242BF49900F57C97 /* Device+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A452A4F7242BF49900F57C97 /* Device+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A452A4FA242BF93200F57C97 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "CoreDataDemo/User+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A452A4FB242BF93200F57C97 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "CoreDataDemo/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4270C512455869B00D2A8DB /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4270C522455869B00D2A8DB /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4270C55245586BB00D2A8DB /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4270C56245586BB00D2A8DB /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A4270C5D2455882D00D2A8DB /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A4270C5E2455882D00D2A8DB /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A452A4FE242BFB3300F57C97 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
-		A452A500242BFD6000F57C97 /* Book+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A452A501242BFD6000F57C97 /* Book+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A460E9F0244AE68900C2481C /* ListPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPersonVC.swift; sourceTree = "<group>"; };
 		A4D13ECC2427B7FA00348C77 /* CoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D13ECF2427B7FA00348C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,12 +56,12 @@
 		A4D13EC32427B7FA00348C77 = {
 			isa = PBXGroup;
 			children = (
-				A452A500242BFD6000F57C97 /* Book+CoreDataClass.swift */,
-				A452A501242BFD6000F57C97 /* Book+CoreDataProperties.swift */,
-				A452A4FA242BF93200F57C97 /* User+CoreDataClass.swift */,
-				A452A4FB242BF93200F57C97 /* User+CoreDataProperties.swift */,
-				A452A4F6242BF49900F57C97 /* Device+CoreDataClass.swift */,
-				A452A4F7242BF49900F57C97 /* Device+CoreDataProperties.swift */,
+				A4270C5D2455882D00D2A8DB /* Task+CoreDataClass.swift */,
+				A4270C5E2455882D00D2A8DB /* Task+CoreDataProperties.swift */,
+				A4270C55245586BB00D2A8DB /* Book+CoreDataClass.swift */,
+				A4270C56245586BB00D2A8DB /* Book+CoreDataProperties.swift */,
+				A4270C512455869B00D2A8DB /* User+CoreDataClass.swift */,
+				A4270C522455869B00D2A8DB /* User+CoreDataProperties.swift */,
 				A4D13ECE2427B7FA00348C77 /* CoreDataDemo */,
 				A4D13ECD2427B7FA00348C77 /* Products */,
 			);
@@ -162,17 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A452A502242BFD6000F57C97 /* Book+CoreDataClass.swift in Sources */,
-				A452A503242BFD6000F57C97 /* Book+CoreDataProperties.swift in Sources */,
-				A452A4F9242BF49900F57C97 /* Device+CoreDataProperties.swift in Sources */,
 				A460E9F1244AE68900C2481C /* ListPersonVC.swift in Sources */,
-				A452A4FD242BF93200F57C97 /* User+CoreDataProperties.swift in Sources */,
 				A4D13EDA2427B7FB00348C77 /* LibraryDataModelVC.xcdatamodeld in Sources */,
+				A4270C58245586BB00D2A8DB /* Book+CoreDataProperties.swift in Sources */,
+				A4270C57245586BB00D2A8DB /* Book+CoreDataClass.swift in Sources */,
+				A4270C602455882D00D2A8DB /* Task+CoreDataProperties.swift in Sources */,
+				A4270C532455869B00D2A8DB /* User+CoreDataClass.swift in Sources */,
+				A4270C542455869B00D2A8DB /* User+CoreDataProperties.swift in Sources */,
+				A4270C5F2455882D00D2A8DB /* Task+CoreDataClass.swift in Sources */,
 				A452A4FF242BFB3300F57C97 /* DataController.swift in Sources */,
 				A4D13ED02427B7FB00348C77 /* AppDelegate.swift in Sources */,
 				A4D13ED22427B7FB00348C77 /* SceneDelegate.swift in Sources */,
-				A452A4F8242BF49900F57C97 /* Device+CoreDataClass.swift in Sources */,
-				A452A4FC242BF93200F57C97 /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +316,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Y4YDVRC35;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -325,6 +325,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,8 +335,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9Y4YDVRC35;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreDataDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

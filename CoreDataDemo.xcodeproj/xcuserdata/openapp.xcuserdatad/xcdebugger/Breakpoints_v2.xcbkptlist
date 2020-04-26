@@ -7,64 +7,64 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "94DDDC86-3E6F-4FD3-8B7E-388C092DF41B"
+            uuid = "B9528281-EDF7-4043-822C-907BD55D27A6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreDataDemo/DataController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "insert(user:withBook:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "setStore(type:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6BB5DCC6-859D-4DD3-B847-EA5980273B7D"
+            uuid = "F4BA5832-2CAE-4916-B89D-2474B73F74D0"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoreDataDemo/ListPersonVC.swift"
+            filePath = "CoreDataDemo/DataController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "fetchUsers(withName:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CFA5B261-E841-43B9-8E73-CE4D9DF9F597"
+            uuid = "E86F604D-FA81-4D31-960B-7BC193F83597"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoreDataDemo/ListPersonVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "fetchTask()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6D5E9075-54B4-482F-9BFD-9A0A8C3B3EA3"
+            uuid = "A93DA463-D961-4172-B527-CBCA0C5F084E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CoreDataDemo/ListPersonVC.swift"
+            filePath = "CoreDataDemo/DataController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "tableView(_:cellForRowAt:)"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "delete(user:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
